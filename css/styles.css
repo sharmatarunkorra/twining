@@ -6639,6 +6639,7 @@ body[data-layout-mode=dark] .gallery-box .box-content {
     }
     .listitemsrow .col-lg-2 {
         flex-basis: 50%;
+        width: 50%;
     }
     .top-left ul li:not(:first-child) {
         display: none;
