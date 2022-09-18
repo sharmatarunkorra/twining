@@ -1,0 +1,672 @@
+
+<!doctype html>
+<html lang="en">
+
+    <head>
+        
+        <meta charset="utf-8" />
+        <title>Twining</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
+        <meta content="Themesbrand" name="author" />
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css'>
+        <link rel='stylesheet' href='https://kenwheeler.github.io/slick/slick/slick-theme.css'>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.1.4/dist/css/datepicker.min.css">
+        <!-- Bootstrap Css -->
+        <link href="css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+        <!-- App Css-->
+        <link href="css/styles.css" id="app-style" rel="stylesheet" type="text/css" />
+
+    </head>
+
+    <body data-layout="horizontal" data-topbar="dark">
+        <!-- Begin page -->
+        <div id="layout-wrapper">
+            <header id="page-topbar" class="ishorizontal-topbar">
+                <div class="navbar-header">
+                    <div class="d-flex">
+                        <!-- LOGO -->
+                        <div class="navbar-brand-box">
+                            <a href="index.html" class="logo logo-dark">
+                                <span class="logo-sm">
+                                    <img src="img/logo.png" alt="" height="22">
+                                </span>
+                                <span class="logo-lg">
+                                    <img src="img/logo.png" alt="" height="22">
+                                </span>
+                            </a>
+
+                            <a href="index.html" class="logo logo-light">
+                                <span class="logo-sm">
+                                    <img src="img/logo.png" alt="" height="22">
+                                </span>
+                                <span class="logo-lg">
+                                    <img src="img/logo.png" alt="" height="22">
+                                </span>
+                            </a>
+                        </div>
+
+                        <button type="button" class="btn btn-sm px-3 font-size-16 d-lg-none header-item" data-bs-toggle="collapse" data-bs-target="#topnav-menu-content">
+                            <i class="fa fa-fw fa-bars"></i>
+                        </button>
+
+                        <div class="topnav">
+                            <nav class="navbar navbar-light navbar-expand-lg topnav-menu">
+        
+                                <div class="collapse navbar-collapse" id="topnav-menu-content">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="index.html">
+                                                <span data-key="t-dashboards">TwOogle</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="">
+                                                <span>Andover Site Info</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="">
+                                                <span>What's New</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="">
+                                                <span>Our Locations & People</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="">
+                                                <span>goTwo Sites Menu</span>
+                                            </a>
+                                        </li>
+        
+                                        
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-pages" role="button">
+                                                <span>Recent</span> <div class="arrow-down"></div>
+                                            </a>
+                                            <div class="dropdown-menu">
+    
+                                                <a href="" class="dropdown-item">Pages</a>
+                                                <a href="" class="dropdown-item">Chat</a>
+                                            </div>
+                                        </li>
+        
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <div class="d-flex">
+                        <div class="dropdown d-inline-block">
+                            <button type="button" class="btn header-item"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="img/search-ico.png" alt="Search" height="25">
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0">
+                                <form class="p-3">
+                                    <div class="search-box">
+                                        <div class="position-relative">
+                                            <input type="text" class="form-control rounded" placeholder="Search here...">
+                                            <img src="img/search-ico.png" alt="Search" height="20"  class="search-icon">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        
+
+                        <div class="dropdown d-inline-block">
+                            <button type="button" class="btn header-item user text-start d-flex align-items-center" id="page-header-user-dropdown"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="rounded-circle header-profile-user" src="img/client-dummy.png"
+                                alt="Header Avatar">
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-end pt-0">
+                                <a class="dropdown-item" href="contacts-profile.html"><span class="align-middle">My Account</span></a>
+                                <a class="dropdown-item" href="auth-logout.html"> <span class="align-middle">Logout</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+    
+
+
+            <!-- ============================================================== -->
+            <!-- Start right Content here -->
+            <!-- ============================================================== -->
+            <div class="main-content">
+
+                <div class="page-content">
+                    <div class="container-fluid">
+
+                        <div class="row widthautosec">
+                          <div class="col-xl-6"  style="width: 45%;">
+                            <div class="cardlist">                    
+                              <div class="page-title-box d-flex align-items-center welcometitlejustify">
+                                <h4 class="mb-0">Welcome !</h4>
+                                <div class="m-view">
+                                  <a href="javascript:;" class="view viewtarget">View all</a>
+                                </div>
+                              </div>
+                              <div class="row listitemsrow">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="card">
+                                        <div class="card-body welcomelistbox">
+                                            <div class="avatar">
+                                                <span class="avatar-title bg-soft-primary rounded">
+                                                    <img src="img/home.png" alt="icon">
+                                                </span>
+                                            </div>
+                                            <h6 class="mt-0 mb-0">Facilities</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="card">
+                                        <div class="card-body welcomelistbox">
+                                            <div class="avatar">
+                                                <span class="avatar-title bg-soft-success rounded">
+                                                    <img src="img/people.png" alt="icon">
+                                                </span>
+                                            </div>
+                                            <h6 class="mt-0 mb-0">GoTwoHR</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="card">
+                                        <div class="card-body welcomelistbox">
+                                            <div class="avatar">
+                                                <span class="avatar-title bg-soft-primary rounded">
+                                                    <img src="img/sap.png" alt="icon">
+                                                </span>
+                                            </div>
+                                            <h6 class="mt-0 mb-0">Sap</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="card">
+                                        <div class="card-body welcomelistbox">
+                                            <div class="avatar">
+                                                <span class="avatar-title bg-soft-success rounded">
+                                                    <img src="img/quality.png" alt="icon">
+                                                </span>
+                                            </div>
+                                            <h6 class="mt-0 mb-0">Quality Hub</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="card">
+                                        <div class="card-body welcomelistbox">
+                                            <div class="avatar">
+                                                <span class="avatar-title bg-soft-primary rounded">
+                                                    <img src="img/airplane.png" alt="icon">
+                                                </span>
+                                            </div>
+                                            <h6 class="mt-0 mb-0">Holding Booking</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="card">
+                                        <div class="card-body welcomelistbox">
+                                            <div class="avatar">
+                                                <span class="avatar-title bg-soft-primary rounded">
+                                                    <img src="img/airplane.png" alt="icon">
+                                                </span>
+                                            </div>
+                                            <h6 class="mt-0 mb-0">Log my Ticket</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="card">
+                                        <div class="card-body welcomelistbox">
+                                            <div class="avatar">
+                                                <span class="avatar-title bg-soft-success rounded">
+                                                    <img src="img/ticket.png" alt="icon">
+                                                </span>
+                                            </div>
+                                            <h6 class="mt-0 mb-0">Our Processes</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="card">
+                                        <div class="card-body welcomelistbox">
+                                            <div class="avatar">
+                                                <span class="avatar-title bg-soft-primary rounded">
+                                                    <img src="img/layout.png" alt="icon">
+                                                </span>
+                                            </div>
+                                            <h6 class="mt-0 mb-0">Twlst</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="card">
+                                        <div class="card-body welcomelistbox">
+                                            <div class="avatar">
+                                                <span class="avatar-title bg-soft-success rounded">
+                                                    <img src="img/flags.png" alt="icon">
+                                                </span>
+                                            </div>
+                                            <h6 class="mt-0 mb-0">SLOW Reporting</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="card">
+                                        <div class="card-body welcomelistbox">
+                                            <div class="avatar">
+                                                <span class="avatar-title bg-soft-primary rounded">
+                                                    <img src="img/rainbow.png" alt="icon">
+                                                </span>
+                                            </div>
+                                            <h6 class="mt-0 mb-0">Value</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="card">
+                                        <div class="card-body welcomelistbox">
+                                            <div class="avatar">
+                                                <span class="avatar-title bg-soft-success rounded">
+                                                    <img src="img/wheat.png" alt="icon">
+                                                </span>
+                                            </div>
+                                            <h6 class="mt-0 mb-0">TwO Herbal Hub</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="card">
+                                        <div class="card-body welcomelistbox">
+                                            <div class="avatar">
+                                                <span class="avatar-title bg-soft-primary rounded">
+                                                    <img src="img/heart.png" alt="icon">
+                                                </span>
+                                            </div>
+                                            <h6 class="mt-0 mb-0">Social Impact</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="card">
+                                        <div class="card-body welcomelistbox">
+                                            <div class="avatar">
+                                                <span class="avatar-title bg-soft-success rounded">
+                                                    <img src="img/search.png" alt="icon">
+                                                </span>
+                                            </div>
+                                            <h6 class="mt-0 mb-0">Google</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="card">
+                                        <div class="card-body welcomelistbox">
+                                            <div class="avatar">
+                                                <span class="avatar-title bg-soft-primary rounded">
+                                                    <img src="img/yammer.png" alt="icon">
+                                                </span>
+                                            </div>
+                                            <h6 class="mt-0 mb-0">Yammer</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="card">
+                                        <div class="card-body welcomelistbox">
+                                            <div class="avatar">
+                                                <span class="avatar-title bg-soft-success rounded">
+                                                    <img src="img/heart-beat.png" alt="icon">
+                                                </span>
+                                            </div>
+                                            <h6 class="mt-0 mb-0">Wellbeing</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="card">
+                                        <div class="card-body welcomelistbox">
+                                            <div class="avatar">
+                                                <span class="avatar-title bg-soft-primary rounded">
+                                                    <img src="img/security.png" alt="icon">
+                                                </span>
+                                            </div>
+                                            <h6 class="mt-0 mb-0">Andover Safety</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="card">
+                                        <div class="card-body welcomelistbox">
+                                            <div class="avatar">
+                                                <span class="avatar-title bg-soft-success rounded">
+                                                    <img src="img/management.png" alt="icon">
+                                                </span>
+                                            </div>
+                                            <h6 class="mt-0 mb-0">Data Team</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="card">
+                                        <div class="card-body welcomelistbox">
+                                            <div class="avatar">
+                                                <span class="avatar-title bg-soft-primary rounded">
+                                                    <img src="img/tea.png" alt="icon">
+                                                </span>
+                                            </div>
+                                            <h6 class="mt-0 mb-0">Green Team</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="card">
+                                        <div class="card-body welcomelistbox">
+                                            <div class="avatar">
+                                                <span class="avatar-title bg-soft-success rounded">
+                                                    <img src="img/plant.png" alt="icon">
+                                                </span>
+                                            </div>
+                                            <h6 class="mt-0 mb-0">Thrive</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="card">
+                                        <div class="card-body welcomelistbox">
+                                            <div class="avatar">
+                                                <span class="avatar-title bg-soft-primary rounded">
+                                                    <img src="img/global.png" alt="icon">
+                                                </span>
+                                            </div>
+                                            <h6 class="mt-0 mb-0">Global Procurement</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6" >
+                                    <div class="card">
+                                        <div class="card-body welcomelistbox">
+                                            <div class="avatar">
+                                                <span class="avatar-title bg-soft-success rounded">
+                                                    <img src="img/coins.png" alt="icon">
+                                                </span>
+                                            </div>
+                                            <h6 class="mt-0 mb-0">The Hub</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>  
+                          </div>
+                          <div class="col-xl-2" style="width: 25%;">
+                            <div class="iphone-container">
+                              <div class="notch"></div>
+                              <i class="fa fa-cloud" aria-hidden="true"></i>
+                              <h1>23°</h1>
+                              <h4>So, it's Stormy.</h4>
+
+                              <div class="week-weather">
+                                <span>Tue Sep 20</span><span>29° 13°</span>
+                                <span>Wed Sep 21</span><span>29° 13°</span>
+                              </div>
+
+                              <div class="border"></div>
+                            </div>
+                            <div class="card upcomingbg">                                                       
+                              <div class="page-title-box d-flex align-items-center welcometitlejustify">
+                                <h4 class="mb-0">Upcoming Event</h4>
+                                <div class="m-view">
+                                  <a href="javascript:;" class="view viewtarget">View all</a>
+                                </div>
+                              </div>
+                                <div class="card-body"> 
+                                  <ul class="widgetsliders">
+                                    <li class="widgetslide">
+                                      <div class="widgetslideinnr">
+                                        <div class="image">
+                                          <img src="img/schedule.png" alt="ADP">
+                                        </div>
+                                        <div class="content">
+                                          <span class="date">Dec 19, 2022</span>
+                                          <h6>Elimiya Cleark</h6>
+                                        </div>
+                                      </div>
+                                    </li>
+                                    <li class="widgetslide">
+                                      <div class="widgetslideinnr">
+                                        <div class="image">
+                                          <img src="img/schedule.png" alt="ADP">
+                                        </div>
+                                        <div class="content">
+                                          <span class="date">Dec 25, 2022</span>
+                                          <h6>Christmas Celebration Party</h6>
+                                        </div>
+                                      </div>
+                                    </li>
+                                  </ul>  
+                                </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-4" style=" width: 30%;">
+                            <div id="calendar">
+                              <div id="calendar_header">
+                                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                                <h1></h1><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+                              <div id="calendar_weekdays"></div>
+                              <div id="calendar_content"></div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <div class="card">
+                                    <div class="card-header">
+                                      <h5 class="card-title mb-0">Yammer Conversation</h5>                                      
+                                    </div>
+                                    <div class="card-body">
+                                       <div class="row align-items-center">
+                                          <div class="yammerconversation">
+                                            <div class="conversationyummer">
+                                              <div class="conversationdetails">
+                                                <div class="shareideathought">
+                                                  <div class="inputgrp">
+                                                    <div class="thumb">
+                                                      <img src="img/client-dummy.png" alt="image">
+                                                    </div>
+                                                    <div class="input">
+                                                      <input type="text" placeholder="Share thoughts, ideas, or updates">
+                                                    </div>
+                                                  </div>
+                                                  <div class="actionbtn">
+                                                    <ul>
+                                                      <li><a href=""><img src="img/comment.png" alt="Discussion">Discussion</a></li>
+                                                      <li><a href=""><img src="img/request.png" alt="Question">Question</a></li>
+                                                      <li><a href=""><img src="img/badge.png" alt="Praise">Praise</a></li>
+                                                      <li><a href=""><img src="img/statistics.png" alt="Poll">Poll</a></li>
+                                                    </ul>
+                                                  </div>
+                                                </div>
+                                                <div class="post">
+                                                  <div class="postheader">
+                                                    <div class="postpersonal">
+                                                      <div class="img"><img src="img/client.jpg" alt="image"></div>
+                                                      <div class="peronalinfo"><h6>Burns, tranny <span>May 20</span></h6></div>
+                                                    </div>
+                                                    <div class="seenother">
+                                                      <p>Seen by 536 <i class="fa fa-ellipsis-v" aria-hidden="true"></i></p>
+                                                    </div>
+                                                  </div>
+                                                  <div class="postcntnt">
+                                                    <h4>Good Afternoon, May payslips are now available to view on ADP.</h4>
+                                                  </div>
+                                                  <div class="actionpost">
+                                                    <div class="action">
+                                                      <ul>
+                                                        <li><a href=""><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>Like</a></li>
+                                                        <li><a href=""><i class="fa fa-commenting-o" aria-hidden="true"></i>comment</a></li>
+                                                      </ul>
+                                                    </div>
+                                                    <div class="likes">
+                                                      <a href=""><img src="img/like.png" alt="Like">Elis, Rob and Others</a>
+                                                    </div>
+                                                  </div>
+                                                  <div class="postfooter">
+                                                    <div class="ptfooterinnr">
+                                                      <div class="image"><img src="img/client-dummy.png" alt="image"></div>
+                                                      <div class="input">
+                                                        <input type="text" placeholder="Write a comment">
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="post">
+                                                  <div class="postheader">
+                                                    <div class="postpersonal">
+                                                      <div class="img"><img src="img/client.jpg" alt="image"></div>
+                                                      <div class="peronalinfo"><h6>Burns, tranny <span>May 20</span></h6></div>
+                                                    </div>
+                                                    <div class="seenother">
+                                                      <p>Seen by 536 <i class="fa fa-ellipsis-v" aria-hidden="true"></i></p>
+                                                    </div>
+                                                  </div>
+                                                  <div class="postcntnt">
+                                                    <h4>Good Afternoon, May payslips are now available to view on ADP.</h4>
+                                                  </div>
+                                                  <div class="actionpost">
+                                                    <div class="action">
+                                                      <ul>
+                                                        <li><a href=""><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>Like</a></li>
+                                                        <li><a href=""><i class="fa fa-commenting-o" aria-hidden="true"></i>comment</a></li>
+                                                      </ul>
+                                                    </div>
+                                                    <div class="likes">
+                                                      <a href=""><img src="img/like.png" alt="Like">Elis, Rob and Others</a>
+                                                    </div>
+                                                  </div>
+                                                  <div class="postfooter">
+                                                    <div class="ptfooterinnr">
+                                                      <div class="image"><img src="img/client-dummy.png" alt="image"></div>
+                                                      <div class="input">
+                                                        <input type="text" placeholder="Write a comment">
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>                                           
+                                       </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-6">
+                                <div class="card timingbg">                                                       
+                                  <div class="page-title-box d-flex align-items-center welcometitlejustify">
+                                    <h4 class="mb-0">Announcement</h4>
+                                    <div class="m-view">
+                                      <a href="javascript:;" class="view viewtarget">View all</a>
+                                    </div>
+                                  </div>
+                                    <div class="card-body"> 
+                                      <ul class="widgetsliders">
+                                        <li class="widgetslide">
+                                          <div class="widgetslideinnr">
+                                            <div class="image">
+                                              <img src="img/adp.png" alt="ADP">
+                                            </div>
+                                            <div class="content">
+                                              <span class="date">Sep 19, 2022</span>
+                                              <h6>Launch of ADP Self Service Portal <a href="" class="tag">News</a></h6>
+                                              <p>Lorem ipsum may be used as a placeholder before final copy is available.</p>
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li class="widgetslide">
+                                          <div class="widgetslideinnr">
+                                            <div class="image">
+                                              <img src="img/ABW-Foods.png" alt="ADP">
+                                            </div>
+                                            <div class="content">
+                                              <span class="date">Sep 19, 2022</span>
+                                              <h6>National Account Manager - AB World Foods <a class="tag">Vacancies</a></h6>
+                                              <p>Lorem ipsum may be used as a placeholder before final copy is available.</p>
+                                            </div>
+                                          </div>
+                                        </li>
+                                        <li class="widgetslide">
+                                          <div class="widgetslideinnr">
+                                            <div class="image">
+                                              <img src="img/florenceimg.png" alt="ADP">
+                                            </div>
+                                            <div class="content">
+                                              <span class="date">Sep 19, 2022</span>
+                                              <h6>Florence Tavener <a href="" class="tag">Welcome</a></h6>
+                                              <p>Lorem ipsum may be used as a placeholder before final copy is available.</p>
+                                            </div>
+                                          </div>
+                                        </li>
+                                      </ul>  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        
+                    </div> <!-- container-fluid -->
+                </div>
+                <!-- End Page-content -->
+
+                
+                <footer class="footer">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-6">
+                              Find out more about Yammer... Select this link 'What is Yammer'
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+            <!-- end main content-->
+
+        </div>
+        <!-- END layout-wrapper -->
+
+        <!-- JAVASCRIPT -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js'></script>  
+        <script src="js/main.js"></script>
+        <script type="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.1.4/dist/js/datepicker.min.js"></script>
+        <script>
+          $(function(){function c(){p();var e=h();var r=0;var u=false;l.empty();while(!u){if(s[r]==e[0].weekday){u=true}else{l.append('<div class="blank"></div>');r++}}for(var c=0;c<42-r;c++){if(c>=e.length){l.append('<div class="blank"></div>')}else{var v=e[c].day;var m=g(new Date(t,n-1,v))?'<div class="today">':"<div>";l.append(m+""+v+"</div>")}}var y=o[n-1];a.css("background-color",y).find("h1").text(i[n-1]+" "+t);f.find("div").css("color",y);l.find(".today").css("background-color",y);d()}function h(){var e=[];for(var r=1;r<v(t,n)+1;r++){e.push({day:r,weekday:s[m(t,n,r)]})}return e}function p(){f.empty();for(var e=0;e<7;e++){f.append("<div>"+s[e].substring(0,3)+"</div>")}}function d(){var t;var n=$("#calendar").css("width",e+"px");n.find(t="#calendar_weekdays, #calendar_content").css("width",e+"px").find("div").css({width:e/7+"px",height:e/7+"px","line-height":e/7+"px"});n.find("#calendar_header").css({height:e*(1/7)+"px"}).find('i[class^="fa"]').css("line-height",e*(1/7)+"px")}function v(e,t){return(new Date(e,t,0)).getDate()}function m(e,t,n){return(new Date(e,t-1,n)).getDay()}function g(e){return y(new Date)==y(e)}function y(e){return e.getFullYear()+"/"+(e.getMonth()+1)+"/"+e.getDate()}function b(){var e=new Date;t=e.getFullYear();n=e.getMonth()+1}var e=480;var t=2013;var n=9;var r=[];var i=["JANUARY","FEBRUARY","MARCH","APRIL","MAY","JUNE","JULY","AUGUST","SEPTEMBER","OCTOBER","NOVEMBER","DECEMBER"];var s=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];var o=["#16a085","#1abc9c","#c0392b","#27ae60","#FF6860","#f39c12","#f1c40f","#e67e22","#2ecc71","#e74c3c","#d35400","#2c3e50"];var u=$("#calendar");var a=u.find("#calendar_header");var f=u.find("#calendar_weekdays");var l=u.find("#calendar_content");b();c();a.find('i[class^="fa"]').on("click",function(){var e=$(this);var r=function(e){n=e=="next"?n+1:n-1;if(n<1){n=12;t--}else if(n>12){n=1;t++}c()};if(e.attr("class").indexOf("left")!=-1){r("previous")}else{r("next")}})})
+        </script>
+        <script>
+        $(document).ready(function () {
+        // Load the first 3 list items from another HTML file
+        //$('#myList').load('externalList.html li:lt(3)');
+        $('.listitemsrow .col-lg-4.col-md-6:lt(12)').show();
+        $('.viewtarget').click(function () {
+            $('.listitemsrow .col-lg-4.col-md-6:lt(21)').show();
+        });
+    });
+        </script>
+    </body>
+</html>
